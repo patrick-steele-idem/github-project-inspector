@@ -1,0 +1,28 @@
+{
+  "name": "github-project-inspector",
+  "version": "0.1.0",
+  "description": "Node.js module that uses the Github API to gather metadata about a project on Github",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.4.0",
+    "github": "^0.2.4",
+    "jshint": "^2.8.0",
+    "native-promise-only": "^0.8.1",
+    "normalize-package-data": "^2.3.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrick-steele-idem/github-project-inspector.git"
+  }
+}
